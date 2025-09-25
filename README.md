@@ -50,7 +50,7 @@ The system ensures **privacy, security, and transparency** in digital voting usi
 ## 🖥️ Installation & Run
 Clone the repository:
 ```bash
-git clone https://github.com/your-username/matrix-voting-user.git
+git clone https://github.com/k-anushka14/e-VS
 cd matrix-voting-user
 
 ---
