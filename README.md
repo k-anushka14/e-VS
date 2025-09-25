@@ -1,73 +1,27 @@
-# Welcome to your Lovable project
+# 🟢 Matrix-Themed E-Voting System – User Portal
 
-## Project info
+This repository contains the **User Page** for our **Matrix-Themed Secure E-Voting System**, built for a hackathon project.  
+The system ensures **privacy, security, and transparency** in digital voting using **encryption, digital identities, and tamper-proof records**.
 
-**URL**: https://lovable.dev/projects/eb441336-6c80-45fc-aebf-ba8088901815
+---
 
-## How can I edit this code?
+## 🚀 Features
+- **User Registration**: Voters register with their details and receive a **unique digital identity (UUID)**.
+- **Secure Voting**: Cast votes anonymously – no one can trace who voted for whom.
+- **Encryption & Decryption**: Votes are encrypted for security and only decrypted at the time of result compilation.
+- **Vote Verification**: Each voter can later verify their vote using their **digital identity**.
+- **Complete Privacy**: Even the admin cannot see individual voter choices.
+- **Matrix-Inspired UI**: Futuristic design with green glowing effects and animations.
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## 🛠️ Tech Stack
+- **Frontend**: HTML, CSS, JavaScript  
+- **Backend** (planned for integration): Flask / Node.js  
+- **Database**: SQLite / MongoDB (for demo, can be swapped)  
+- **Encryption**: SHA-256 / AES for secure vote handling  
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/eb441336-6c80-45fc-aebf-ba8088901815) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 📂 Project Structure
 
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/eb441336-6c80-45fc-aebf-ba8088901815) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
